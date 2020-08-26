@@ -1,0 +1,111 @@
+
+#excel-two-step-import td:not(.add-col) {
+    display: table-cell;
+    min-width: 150px;
+}
+
+#excel-two-step-import {
+    max-width:100%;
+    overflow: scroll;
+}
+
+#table {
+    border-collapse: collapse;
+}
+
+#table thead {
+    background: #e1f1ff;
+}
+
+#table select {
+    border-radius: 0;
+    width: 100%;
+    font-weight: 700;
+}
+
+#table td {
+    padding: 1px;
+    border: 1px dotted #4a52b3;
+}
+
+#table tbody td input[type='text']:focus {
+    box-shadow: 0px 1px 9px 10px #e1f1ff;
+    z-index: 1;
+    position: relative;
+}
+
+#table td.delete,
+#table td.add_col {
+    width: 20px;
+    min-width: 20px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#table td.delete span,
+#table td.add_col span{
+    cursor: pointer;
+}
+
+#table td input {
+    border-radius: 0;
+}
+
+.show_prod_props,
+.multiple_val {
+    padding: 5px 1px;
+}
+
+.multiple_val {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#excel-two-step-import .td-img-main,
+#excel-two-step-import .td-img-gal {
+    min-width: 200px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.file-upload-input {
+    display: none;
+}
+
+.file-label {
+    font-weight: 700;
+}
+
+.img-collection {
+    display: flex;
+}
+
+.img-collection img {
+    max-width: 100%;
+    min-width: 50px;
+}
+
+.attach-ajax-img {
+    position:relative;
+    margin: 5px;
+}
+
+.attach-ajax-img .attach-ajax-delete{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    background: #e1f1ff6b;
+    width: 15px;
+    height: 15px;
+    vertical-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

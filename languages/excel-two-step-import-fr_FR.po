@@ -1,0 +1,310 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Excel_two_step_import\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2020-08-22 14:49+0200\n"
+"PO-Revision-Date: 2020-08-22 14:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: _s\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/classes/Form.php:77
+msgid "select value"
+msgstr "sélectionner une valeur"
+
+#: inc/classes/Form.php:89
+msgid "Several meanings"
+msgstr "Plusieurs significations"
+
+#: inc/classes/Form.php:99
+msgid "Add Main Photo"
+msgstr "Ajouter une photo principale"
+
+#: inc/classes/Form.php:106
+msgid "Add Gallery Photos"
+msgstr "Ajouter des photos de la galerie"
+
+#: inc/classes/Main.php:71
+msgid "Cannot read file"
+msgstr "Impossible de lire le fichier"
+
+#: inc/classes/Main.php:77
+msgid "Failed to retrieve data"
+msgstr "Échec de la récupération des données"
+
+#: inc/classes/Main.php:87
+msgid "Failed to load form data"
+msgstr "Échec du chargement des données du formulaire"
+
+#: inc/classes/Main.php:96
+msgid "Failed to create post"
+msgstr "Échec de la création du message"
+
+#: inc/classes/Main.php:138
+msgid "Import from Excel file"
+msgstr "Importer à partir d’un fichier Excel"
+
+#: inc/classes/Main.php:149
+msgid "Import from excel file"
+msgstr "Importer à partir d’un fichier Excel"
+
+#: inc/classes/Main.php:180 templates/import-data-form.php:4
+#: templates/import-file-form.php:4
+msgid "Upload file"
+msgstr "Téléverser un fichier"
+
+#: inc/classes/creator/Post_creator.php:34
+msgid "ID"
+msgstr "ID"
+
+#: inc/classes/creator/Post_creator.php:35
+msgid "Menu order"
+msgstr "Ordre du menu"
+
+#: inc/classes/creator/Post_creator.php:36
+msgid "Comment status (closed or open)"
+msgstr "Statut du commentaire (closed or open)"
+
+#: inc/classes/creator/Post_creator.php:37
+msgid "Ping status (closed or open)"
+msgstr "État du ping (closed or open)"
+
+#: inc/classes/creator/Post_creator.php:38
+msgid "Pinged"
+msgstr "Pinged"
+
+#: inc/classes/creator/Post_creator.php:39
+msgid "Post author ID"
+msgstr "Identifiant de l’auteur de l’article"
+
+#: inc/classes/creator/Post_creator.php:40
+msgid "Post content (required)"
+msgstr "Contenu du message (obligatoire)"
+
+#: inc/classes/creator/Post_creator.php:41
+msgid "Post date (required for \"future\" post)"
+msgstr "Date de publication (obligatoire pour le «futur» message)"
+
+#: inc/classes/creator/Post_creator.php:42
+msgid "Post date gmt"
+msgstr "Date de publication GMT"
+
+#: inc/classes/creator/Post_creator.php:43
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: inc/classes/creator/Post_creator.php:44
+msgid "Post name"
+msgstr "Après le nom"
+
+#: inc/classes/creator/Post_creator.php:45
+msgid "Post parent"
+msgstr "Post parent"
+
+#: inc/classes/creator/Post_creator.php:46
+msgid "Post password"
+msgstr "Publier le mot de passe"
+
+#: inc/classes/creator/Post_creator.php:47
+msgid "Post status"
+msgstr "Statut du message"
+
+#: inc/classes/creator/Post_creator.php:48
+msgid "Post title (required)"
+msgstr "Titre du message (obligatoire)"
+
+#: inc/classes/creator/Post_creator.php:49
+msgid "Post type"
+msgstr "Type de poste"
+
+#: inc/classes/creator/Post_creator.php:50
+msgid "Post category ID"
+msgstr "Identifiant de la catégorie de publication"
+
+#: inc/classes/creator/Post_creator.php:51
+msgid "Tags input"
+msgstr "Entrée de balises"
+
+#: inc/classes/creator/Post_creator.php:52
+msgid "Taxonomy input"
+msgstr "Entrée de taxonomie"
+
+#: inc/classes/creator/Post_creator.php:53
+msgid "Ping"
+msgstr "Ping"
+
+#: inc/classes/creator/Post_creator.php:54
+msgid "Meta input"
+msgstr "Entrée méta"
+
+#: inc/classes/creator/Product_creator.php:49
+msgid "SKU (Required)"
+msgstr "SKU (obligatoire)"
+
+#: inc/classes/creator/Product_creator.php:50
+msgid "Name of product"
+msgstr "Nom du produit"
+
+#: inc/classes/creator/Product_creator.php:51
+msgid "Slug of product"
+msgstr "Limace de produit"
+
+#: inc/classes/creator/Product_creator.php:52
+msgid "Date created"
+msgstr "Date créée"
+
+#: inc/classes/creator/Product_creator.php:53
+msgid "Date modified"
+msgstr "Date modifiée"
+
+#: inc/classes/creator/Product_creator.php:54
+msgid "Status"
+msgstr "Statut"
+
+#: inc/classes/creator/Product_creator.php:55
+msgid "Featured"
+msgstr "En vedette"
+
+#: inc/classes/creator/Product_creator.php:56
+msgid "Catalog visibility"
+msgstr "Visibilité du catalogue"
+
+#: inc/classes/creator/Product_creator.php:57
+msgid "Description (main)"
+msgstr "Description (principale)"
+
+#: inc/classes/creator/Product_creator.php:58
+msgid "Short description"
+msgstr "Brève description"
+
+#: inc/classes/creator/Product_creator.php:59
+msgid "Price"
+msgstr "Prix"
+
+#: inc/classes/creator/Product_creator.php:60
+msgid "Regular price"
+msgstr "Prix ​​habituel"
+
+#: inc/classes/creator/Product_creator.php:61
+msgid "Sale price"
+msgstr "Prix ​​de vente"
+
+#: inc/classes/creator/Product_creator.php:62
+msgid "Total sales"
+msgstr "Ventes totales"
+
+#: inc/classes/creator/Product_creator.php:63
+msgid "Tax status"
+msgstr "Statut fiscal"
+
+#: inc/classes/creator/Product_creator.php:64
+msgid "Tax class"
+msgstr "Classe d’impôt"
+
+#: inc/classes/creator/Product_creator.php:65
+msgid "Manage stock"
+msgstr "Gérer le stock"
+
+#: inc/classes/creator/Product_creator.php:66
+msgid "Stock quantity"
+msgstr "Quantité en stock"
+
+#: inc/classes/creator/Product_creator.php:67
+msgid "Stock status"
+msgstr "Quantité en stock"
+
+#: inc/classes/creator/Product_creator.php:68
+msgid "Low stock amount"
+msgstr "Faible quantité de stock"
+
+#: inc/classes/creator/Product_creator.php:69
+msgid "Sold individually"
+msgstr "Vendus séparément"
+
+#: inc/classes/creator/Product_creator.php:70
+msgid "Weight"
+msgstr "Poids"
+
+#: inc/classes/creator/Product_creator.php:71
+msgid "Length"
+msgstr "Longueur"
+
+#: inc/classes/creator/Product_creator.php:72
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/classes/creator/Product_creator.php:73
+msgid "Height"
+msgstr "La taille"
+
+#: inc/classes/creator/Product_creator.php:74
+msgid "Upsell ids"
+msgstr "Identifiants de vente incitative"
+
+#: inc/classes/creator/Product_creator.php:75
+msgid "Cross sell ids"
+msgstr "ID de vente croisée"
+
+#: inc/classes/creator/Product_creator.php:76
+msgid "Reviews allowed"
+msgstr "Avis autorisés"
+
+#: inc/classes/creator/Product_creator.php:77
+msgid "Purchase note"
+msgstr "Note d’achat"
+
+#: inc/classes/creator/Product_creator.php:78
+msgid "Attributes"
+msgstr "Les attributs"
+
+#: inc/classes/creator/Product_creator.php:79
+msgid "Category ids"
+msgstr "Identifiants de catégorie"
+
+#: inc/classes/creator/Product_creator.php:80
+msgid "Category name"
+msgstr "Nom de catégorie"
+
+#: inc/classes/creator/Product_creator.php:81
+msgid "Shipping class id"
+msgstr "Identifiant de la classe d’expédition"
+
+#: inc/classes/creator/Product_creator.php:82
+msgid "Image id"
+msgstr "Identifiant de l’image"
+
+#: inc/classes/creator/Product_creator.php:83
+msgid "Gallery image ids"
+msgstr "Identifiants des images de la galerie"
+
+#~ msgid "Empty data received"
+#~ msgstr "Получены пустые данные"
+
+#~ msgid "Empty values ​​received"
+#~ msgstr "Получены пустые значения"
+
+#~ msgid "Cannot upload this file"
+#~ msgstr "Невозможно загрузить этот файл"
+
+#~ msgid "Failed to read data from CSV"
+#~ msgstr "Не удалось прочитать данные из CSV"
+
+#~ msgid "Failed to write data to CSV"
+#~ msgstr "Не удалось записать данные в CSV"
+
+#~ msgid "Excel_two_step_import"
+#~ msgstr "Excel_two_step_import"
+
+#~ msgid "Unknown property"
+#~ msgstr "Неизвестная свойство"

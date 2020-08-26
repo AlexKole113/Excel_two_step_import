@@ -1,0 +1,312 @@
+# Copyright (C) 2020 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Excel_two_step_import\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/_s\n"
+"POT-Creation-Date: 2020-08-26 18:45+0200\n"
+"PO-Revision-Date: 2020-08-26 18:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Domain: _s\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/classes/Form.php:100
+msgid "select value"
+msgstr "выберите значение"
+
+#: inc/classes/Form.php:117
+msgid "Several meanings"
+msgstr "Несколько значений"
+
+#: inc/classes/Form.php:133
+msgid "Add Main Photo"
+msgstr "Добавить основное фото"
+
+#: inc/classes/Form.php:140
+msgid "Add Gallery Photos"
+msgstr "Добавить фото для галереи"
+
+#: inc/classes/Main.php:88
+msgid "Cannot read file"
+msgstr "Не удалось прочитать файл"
+
+#: inc/classes/Main.php:94
+msgid "Failed to retrieve data"
+msgstr "Не удалось получить данные"
+
+#: inc/classes/Main.php:105
+msgid "Failed to load form data"
+msgstr "Не удалось получить данные из формы"
+
+#: inc/classes/Main.php:114
+msgid "Failed to create post"
+msgstr "Не удалось добавить пост"
+
+#: inc/classes/Main.php:162
+msgid "Import from Excel file"
+msgstr "Импорт из файла Excel"
+
+#: inc/classes/Main.php:176
+msgid "Import from excel file"
+msgstr "Импорт из файла Excel"
+
+#: inc/classes/Main.php:208 templates/import-data-form.php:4
+#: templates/import-file-form.php:4
+msgid "Upload file"
+msgstr "Загрузить файл"
+
+#: inc/classes/creator/Post_creator.php:38
+msgid "ID"
+msgstr "ID"
+
+#: inc/classes/creator/Post_creator.php:39
+msgid "Menu order"
+msgstr "Порядок меню"
+
+#: inc/classes/creator/Post_creator.php:40
+msgid "Comment status (closed or open)"
+msgstr "Статус комментариев (closed or open)"
+
+#: inc/classes/creator/Post_creator.php:41
+msgid "Ping status (closed or open)"
+msgstr "Пинг статус (closed or open)"
+
+#: inc/classes/creator/Post_creator.php:42
+msgid "Pinged"
+msgstr "Ping"
+
+#: inc/classes/creator/Post_creator.php:43
+msgid "Post author ID"
+msgstr "Автор поста ID"
+
+#: inc/classes/creator/Post_creator.php:44
+msgid "Post content (required)"
+msgstr "Контент поста (обязательно)"
+
+#: inc/classes/creator/Post_creator.php:45
+msgid "Post date (required for \"future\" post)"
+msgstr "Дата публикации (требуется для «future» постов)"
+
+#: inc/classes/creator/Post_creator.php:46
+msgid "Post date gmt"
+msgstr "Дата публикации gmt"
+
+#: inc/classes/creator/Post_creator.php:47
+msgid "Excerpt"
+msgstr "Выдержка"
+
+#: inc/classes/creator/Post_creator.php:48
+msgid "Post name"
+msgstr "Ярлык сообщения"
+
+#: inc/classes/creator/Post_creator.php:49
+msgid "Post parent"
+msgstr "Родитель сообщения"
+
+#: inc/classes/creator/Post_creator.php:50
+msgid "Post password"
+msgstr "Пароль публикации"
+
+#: inc/classes/creator/Post_creator.php:51
+msgid "Post status"
+msgstr "Статус публикации"
+
+#: inc/classes/creator/Post_creator.php:52
+msgid "Post title (required)"
+msgstr "Заголовок сообщения (обязательно)"
+
+#: inc/classes/creator/Post_creator.php:53
+msgid "Post type"
+msgstr "Тип сообщения"
+
+#: inc/classes/creator/Post_creator.php:54
+msgid "Post category ID"
+msgstr "ID категории публикации"
+
+#: inc/classes/creator/Post_creator.php:55
+msgid "Tags input"
+msgstr "Ввод тегов"
+
+#: inc/classes/creator/Post_creator.php:56
+msgid "Taxonomy input"
+msgstr "Ввод таксономии"
+
+#: inc/classes/creator/Post_creator.php:57
+msgid "Ping"
+msgstr "Ping"
+
+#: inc/classes/creator/Post_creator.php:58
+msgid "Meta input"
+msgstr "Мета-ввод"
+
+#: inc/classes/creator/Product_creator.php:52
+msgid "SKU (Required)"
+msgstr "Артикул (SKU)"
+
+#: inc/classes/creator/Product_creator.php:53
+msgid "Name of product"
+msgstr "Название продукта"
+
+#: inc/classes/creator/Product_creator.php:54
+msgid "Slug of product"
+msgstr "Ярлык продукта"
+
+#: inc/classes/creator/Product_creator.php:55
+msgid "Date created"
+msgstr "Дата создания"
+
+#: inc/classes/creator/Product_creator.php:56
+msgid "Date modified"
+msgstr "Дата изменения"
+
+#: inc/classes/creator/Product_creator.php:57
+msgid "Status"
+msgstr "Статус"
+
+#: inc/classes/creator/Product_creator.php:58
+msgid "Featured"
+msgstr "Рекомендуемые"
+
+#: inc/classes/creator/Product_creator.php:59
+msgid "Catalog visibility"
+msgstr "Видимость каталога"
+
+#: inc/classes/creator/Product_creator.php:60
+msgid "Description (main)"
+msgstr "Описание (основное)"
+
+#: inc/classes/creator/Product_creator.php:61
+msgid "Short description"
+msgstr "Короткое описание"
+
+#: inc/classes/creator/Product_creator.php:62
+msgid "Price"
+msgstr "Цена"
+
+#: inc/classes/creator/Product_creator.php:63
+msgid "Regular price"
+msgstr "Обычная цена"
+
+#: inc/classes/creator/Product_creator.php:64
+msgid "Sale price"
+msgstr "Цена продажи"
+
+#: inc/classes/creator/Product_creator.php:65
+msgid "Total sales"
+msgstr "Всего продано"
+
+#: inc/classes/creator/Product_creator.php:66
+msgid "Tax status"
+msgstr "Налоговый статус"
+
+#: inc/classes/creator/Product_creator.php:67
+msgid "Tax class"
+msgstr "Налоговый класс"
+
+#: inc/classes/creator/Product_creator.php:68
+msgid "Manage stock"
+msgstr "Управляйте запасами"
+
+#: inc/classes/creator/Product_creator.php:69
+msgid "Stock quantity"
+msgstr "Количество на складе"
+
+#: inc/classes/creator/Product_creator.php:70
+msgid "Stock status"
+msgstr "Состояние на складе"
+
+#: inc/classes/creator/Product_creator.php:71
+msgid "Low stock amount"
+msgstr "Граница малых запасов"
+
+#: inc/classes/creator/Product_creator.php:72
+msgid "Sold individually"
+msgstr "Продается индивидуально"
+
+#: inc/classes/creator/Product_creator.php:73
+msgid "Weight"
+msgstr "Вес"
+
+#: inc/classes/creator/Product_creator.php:74
+msgid "Length"
+msgstr "Длина"
+
+#: inc/classes/creator/Product_creator.php:75
+msgid "Width"
+msgstr "Ширина"
+
+#: inc/classes/creator/Product_creator.php:76
+msgid "Height"
+msgstr "Высота"
+
+#: inc/classes/creator/Product_creator.php:77
+msgid "Upsell ids"
+msgstr "ID апсейл"
+
+#: inc/classes/creator/Product_creator.php:78
+msgid "Cross sell ids"
+msgstr "ID кроссейл"
+
+#: inc/classes/creator/Product_creator.php:79
+msgid "Reviews allowed"
+msgstr "Разрешены обзоры"
+
+#: inc/classes/creator/Product_creator.php:80
+msgid "Purchase note"
+msgstr "Примечание о покупке"
+
+#: inc/classes/creator/Product_creator.php:81
+msgid "Attributes"
+msgstr "Атрибуты"
+
+#: inc/classes/creator/Product_creator.php:82
+msgid "Category ids"
+msgstr "ID Категории"
+
+#: inc/classes/creator/Product_creator.php:83
+msgid "Category name"
+msgstr "Название категории"
+
+#: inc/classes/creator/Product_creator.php:84
+msgid "Shipping class id"
+msgstr "ID класса доставки"
+
+#: inc/classes/creator/Product_creator.php:85
+msgid "Image id"
+msgstr "ID изображения"
+
+#: inc/classes/creator/Product_creator.php:86
+msgid "Gallery image ids"
+msgstr "ID изображений галереи"
+
+#~ msgid "Empty data received"
+#~ msgstr "Получены пустые данные"
+
+#~ msgid "Empty values ​​received"
+#~ msgstr "Получены пустые значения"
+
+#~ msgid "Cannot upload this file"
+#~ msgstr "Невозможно загрузить этот файл"
+
+#~ msgid "Failed to read data from CSV"
+#~ msgstr "Не удалось прочитать данные из CSV"
+
+#~ msgid "Failed to write data to CSV"
+#~ msgstr "Не удалось записать данные в CSV"
+
+#~ msgid "Excel_two_step_import"
+#~ msgstr "Excel_two_step_import"
+
+#~ msgid "Unknown property"
+#~ msgstr "Неизвестная свойство"
