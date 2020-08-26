@@ -1,2 +1,2 @@
-# Import from Excel and OpenOffice spreadsheets to WordPress
+# WordPress plugin - Import from Excel and OpenOffice spreadsheets to WordPress
  
