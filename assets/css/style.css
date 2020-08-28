@@ -89,8 +89,9 @@
 }
 
 .attach-ajax-img {
-    position:relative;
-    margin: 5px;
+    position: relative;
+    margin: 5px auto;
+    text-align: center;
 }
 
 .attach-ajax-img .attach-ajax-delete{

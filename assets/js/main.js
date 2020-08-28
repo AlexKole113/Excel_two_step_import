@@ -11,6 +11,7 @@ jQuery(function($){
             data.append( key, value );
         });
         data.append( 'action', 'excel_two_step_import' );
+        data.append( 'excel_two_step_import_nonce', excel_two_step_import_object.nonce );
 
 
         $.ajax({
@@ -51,7 +52,8 @@ jQuery(function($){
             url: ajaxurl,
             type: "POST",
             data: { 'excel_two_step_delete_attach' : $(this).data('attachid'),
-                    'action' : 'excel_two_step_import'
+                    'action' : 'excel_two_step_import',
+                    'excel_two_step_import_nonce': excel_two_step_import_object.nonce,
             },
             beforeSend: function() {
                 parent.html('<img style="max-width: 50px; display: block; margin: auto;" src="' + excel_two_step_import_object.plugin_url + '/excel_two_step_import/assets/img/load.gif" >');

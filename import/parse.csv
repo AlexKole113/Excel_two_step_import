@@ -1,0 +1,4 @@
+"Post_date","Post_title","Post_content","Post_status","Comment_status","Ping_status","Excerpt","Posr_name","Post_type","tag","Category"
+"2019-02-23","Название 1","КонтентКонтентКонтен 1","publish","closed","closed","excerpt 1","slug-1","post","tag 1","Category 1, cat2,catt3"
+"2021-02-23","Название 2","КонтентКонтентКонтен 2","future","open","closed","excerpt 2","slug-2","post","tag 2, tag3, sdsd","Category 1"
+"","","","","","","","","","",""

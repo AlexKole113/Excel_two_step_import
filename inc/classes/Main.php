@@ -146,6 +146,7 @@ class Main
 
         wp_localize_script( 'excel_two_step_import-js', 'excel_two_step_import_object', array(
                 'plugin_url'        => plugins_url(),
+                'nonce'             => wp_create_nonce('excel_two_step_import' ),
                 'input_img_main'    => $this->admin_form->img_main_name,
                 'input_img_gal'     => $this->admin_form->img_gal_name,
             )
@@ -216,6 +217,12 @@ class Main
      */
     public function excel_two_step_import_ajax()
     {
+
+        if( !isset( $_POST['excel_two_step_import_nonce'] ) ) wp_die();
+        $nonce = $_POST['excel_two_step_import_nonce'];
+
+        if ( !wp_verify_nonce( $nonce, 'excel_two_step_import' ) ) wp_die();
+
 
         if( isset( $_POST['excel_two_step_delete_attach'] ) && !empty( $_POST['excel_two_step_delete_attach'] ) ) {
 
